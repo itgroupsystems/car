@@ -1,0 +1,7 @@
+.toolbar-icon-car-view:before {
+  background-image: url(../images/car.png);
+}
+.toolbar-icon-car-view:active:before,
+.toolbar-icon-car-view.is-active:before {
+  background-image: url(../images/car.png);
+}

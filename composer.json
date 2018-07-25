@@ -1,0 +1,70 @@
+{
+    "name": "drupal/car",
+    "type": "drupal-module",
+    "description": "Module to manage Cars",
+    "keywords": ["php", "drupal"],
+    "license": "GPL-2.0+",
+    "homepage": "http://itgroup.systems/",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://github.com/itgroupsystems/irontec.car/issues",
+        "source": "https://github.com/itgroupsystems/irontec.car"
+    },
+    "authors": [
+        {
+            "name": "Lucio Marcelo Quispe Ortega",
+            "email": "marceloquispeortega@gmail.com",
+            "homepage": "http://itgroup.systems/",
+            "role": "Developer"
+        },
+        {
+            "name": "Roger David Barja Montellano",
+            "email": "skoger@gmail.com",
+            "homepage": "http://itgroup.systems/",
+            "role": "Developer"
+        },
+        {
+            "name": "Sergio Antonio Ochoa Martinez",
+            "email": "gnu.java.sergio@gmail.com",
+            "homepage": "http://itgroup.systems/",
+            "role": "Developer"
+        },
+
+        {
+            "name": "Angel Orlando Martinez Paniagua",
+            "email": "ares.mj23@gmail.com",
+            "homepage": "http://itgroup.systems/",
+            "role": "Developer"
+        }, 
+        {
+            "name": "Marco Antonio Sanchez Cueto",
+            "email": "markito0@gmail.com",
+            "homepage": "http://itgroup.systems/",
+            "role": "Developer"
+        },
+        {
+            "name": "Benjamin Castillo Eguez",
+            "email": "castilloeguezbenji@gmail.com",
+            "homepage": "http://itgroup.systems/",
+            "role": "Developer"
+        },
+        {
+            "name": "Erwin Mendez",
+            "email": "erwinxyz1@gmail.com",
+            "homepage": "http://itgroup.systems/",
+            "role": "Developer"
+        },
+        {
+            "name": "Amancaya Iriarte Negron",
+            "email": "koda01996@gmail.com",
+            "homepage": "http://itgroup.systems/",
+            "role": "Developer"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Drupal\\": "src/"
+        }
+    }
+}

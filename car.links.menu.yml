@@ -1,0 +1,11 @@
+car.view:
+  title: 'Car list'
+  parent: system.admin
+  route_name: entity.car.collection
+# Car menu items definition
+entity.car.collection:
+  title: 'Car list'
+  route_name: entity.car.collection
+  description: 'List Car entities'
+  parent: system.admin
+  weight: 100

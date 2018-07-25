@@ -1,0 +1,44 @@
+<?php
+
+/**
+* @file
+* Contains car.module.
+*/
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+* Implements hook_help().
+*/
+function car_help($route_name, RouteMatchInterface $route_match) {
+    switch ($route_name) {
+        // Main module help for the car module.
+        case 'help.page.car':
+        $output = '';
+        $output .= '<h3>' . t('About') . '</h3>';
+        $output .= '<p>' . t('Module to manage Cars') . '</p>';
+        return $output;
+
+        default:
+    }
+}
+
+/**
+* Implements hook_theme().
+*/
+function car_theme() {
+    return [
+        'car' => [
+            'render element' => 'children',
+        ],
+    ];
+}
+
+/**
+ * Implements hook_page_attachments().
+ */
+function car_page_attachments(array &$attachments) {
+  $is_admin = \Drupal::service('router.admin_context')->isAdminRoute();
+  if ($is_admin){
+    $attachments['#attached']['library'][] = 'car/toolbar-icon';
+  }
+}

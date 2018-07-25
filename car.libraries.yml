@@ -1,0 +1,5 @@
+toolbar-icon:
+  version: 1.0
+  css:
+    theme:
+      css/car-toolbar-icon.css: {}
