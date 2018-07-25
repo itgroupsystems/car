@@ -1,5 +1,5 @@
 {
-    "name": "irontec/car",
+    "name": "itgroup/car",
     "type": "drupal-module",
     "description": "Module to manage Cars",
     "keywords": ["php", "drupal"],
