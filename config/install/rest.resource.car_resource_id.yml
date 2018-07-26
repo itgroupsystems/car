@@ -1,0 +1,9 @@
+id: car_resource_id
+plugin_id: car_resource_id
+granularity: method
+configuration:
+  GET:
+    supported_formats:
+      - json
+    supported_auth:
+      - cookie
