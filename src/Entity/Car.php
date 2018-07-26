@@ -136,7 +136,7 @@ class Car extends ContentEntityBase implements CarInterface {
         ->setSettings([
             'allowed_values' => [
                 'White' => t('White'),
-                'Grey' => t('Grey'),
+                'Gray' => t('Gray'),
                 'Red' => t('Red')
             ],
         ])

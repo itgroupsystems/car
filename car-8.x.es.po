@@ -19,34 +19,34 @@ msgid "Operations"
 msgstr "Operaciones"
 
 msgid "Module to manage Cars"
-msgstr "Módulo para el manejo de autos"
+msgstr "Módulo para el manejo de Automóviles"
 
 msgid "Car"
-msgstr "Auto"
+msgstr "Automóvil"
 
 msgid "The registration number of the Car."
-msgstr "Registro del número del Auto"
+msgstr "Registro del número del Automóvil"
 
 msgid "The color of the Car."
-msgstr "Color del Auto"
+msgstr "Color del Automóvil"
 
 msgid "The kilometers of the Car."
-msgstr "Kilometraje del Auto"
+msgstr "Kilometraje del Automóvil"
 
 msgid "The Owner of the Car."
-msgstr "Dueño del auto"
+msgstr "Propietario del Automóvil"
 
 msgid "A boolean indicating whether the Car is published."
-msgstr "Indica si el Auto está publicado"
+msgstr "Indica si el Automóvil está publicado"
 
 msgid "Car list"
-msgstr "Lista de Autos"
+msgstr "Lista de Automóviles"
 
 msgid "List Car entities"
-msgstr "Lista de Entidades Auto"
+msgstr "Lista de Automóviles"
 
 msgid "Car ID"
-msgstr "ID Automovil"
+msgstr "ID Automóvil"
 
 msgid "Registration number"
 msgstr "Número de registro"
@@ -68,7 +68,7 @@ msgid "@size limit."
 msgstr "@size límite"
 
 msgid "Allowed types: @extensions."
-msgstr "Permite extenciones: @extensions."
+msgstr "Permite extensiones: @extensions."
 
 msgid "Save"
 msgstr "Guardar"
@@ -88,16 +88,16 @@ msgid "Registration number"
 msgstr "Número de Registro"
 
 msgid "Add Car"
-msgstr "Nuevo Automovil"
+msgstr "Nuevo Automóvil"
 
 msgid "Kilometers"
 msgstr "Kilometraje"
 
 msgid "KILOMETERS"
-msgstr "Kilometraje"
+msgstr "KILOMETRAJE"
 
 msgid "Add Car"
-msgstr "Nuevo Automovil"
+msgstr "Nuevo Automóvil"
 
 msgid "Gray"
 msgstr "Gris"
@@ -107,3 +107,6 @@ msgstr "Rojo"
 
 msgid "White"
 msgstr "Blanco"
+
+msgid "Not found records"
+msgstr "No se encontraron registros"

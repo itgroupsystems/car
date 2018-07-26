@@ -37,7 +37,7 @@ class CarListBuilder extends EntityListBuilder {
             'entity.car.edit_form',
             ['car' => $entity->id()]
         );
-        $row['color'] = $entity->color->value;
+        $row['color'] = $this->t($entity->color->value);
         $row['kilometers'] = $entity->km->value;
         $row['owner'] = $entity->owner->value;
         return $row + parent::buildRow($entity);

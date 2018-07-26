@@ -24,7 +24,7 @@ class CarResource extends ResourceBase {
     public function get() {
         $query = \Drupal::database()->select('car_field_data', 'car');
 
-        $query->join('file_managed', 'image', 'image.fid = car.image__target_id');
+        $query->leftJoin('file_managed', 'image', 'image.fid = car.image__target_id');
         $query->fields('car', ['id', 'registration_number', 'color', 'km', 'owner', 'image__alt', 'image__title', 'image__width', 'image__height']);
         $query->fields('image', ['filename']);
 
@@ -32,13 +32,18 @@ class CarResource extends ResourceBase {
         $result = $query->execute();
 
         while ($record = $result->fetchAssoc()) {
-            $record['image'] = [
-                'url' => $GLOBALS['base_url'] . '/sites/default/files/IMAGE_FOLDER/' . $record['filename'],
-                'alt' => $record['image__alt'],
-                'title' => $record['image__title'],
-                'width' => $record['image__width'],
-                'height' => $record['image__height']
-            ];
+            $record['color'] = t($record['color']);
+            if (!empty($record['image__target_id'])) {
+                $record['image'] = [
+                    'url' => $GLOBALS['base_url'] . '/sites/default/files/IMAGE_FOLDER/' . $record['filename'],
+                    'alt' => $record['image__alt'],
+                    'title' => $record['image__title'],
+                    'width' => $record['image__width'],
+                    'height' => $record['image__height']
+                ];
+            } else {
+                $record['image'] = null;
+            }
             unset($record['filename']);
             unset($record['image__alt']);
             unset($record['image__title']);
