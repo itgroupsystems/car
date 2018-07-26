@@ -1,0 +1,109 @@
+# Spanish translation of Blog cars
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2018-07-26 12:45-0400\n"
+"PO-Revision-Date: 2018-07-26 12:45-0400\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "Image"
+msgstr "Imágen"
+
+msgid "Operations"
+msgstr "Operaciones"
+
+msgid "Module to manage Cars"
+msgstr "Módulo para el manejo de autos"
+
+msgid "Car"
+msgstr "Auto"
+
+msgid "The registration number of the Car."
+msgstr "Registro del número del Auto"
+
+msgid "The color of the Car."
+msgstr "Color del Auto"
+
+msgid "The kilometers of the Car."
+msgstr "Kilometraje del Auto"
+
+msgid "The Owner of the Car."
+msgstr "Dueño del auto"
+
+msgid "A boolean indicating whether the Car is published."
+msgstr "Indica si el Auto está publicado"
+
+msgid "Car list"
+msgstr "Lista de Autos"
+
+msgid "List Car entities"
+msgstr "Lista de Entidades Auto"
+
+msgid "Car ID"
+msgstr "ID Automovil"
+
+msgid "Registration number"
+msgstr "Número de registro"
+
+msgid "Kilometers"
+msgstr "Kilometraje"
+
+msgid "Owner"
+msgstr "Propietario"
+
+msgid "There is no @label yet."
+msgstr "No existe @label aún"
+
+msgid "@label entities"
+msgstr "Entidades @label"
+
+
+msgid "@size limit."
+msgstr "@size límite"
+
+msgid "Allowed types: @extensions."
+msgstr "Permite extenciones: @extensions."
+
+msgid "Save"
+msgstr "Guardar"
+
+msgid "One file only."
+msgid_plural "Maximum @count files."
+msgstr[0] "Un archivo únicamente"
+msgstr[1] ""
+
+msgid "Publishing status"
+msgstr "Estados de publicación"
+
+msgid "REGISTRATION NUMBER"
+msgstr "NUMERO DE REGISTRO"
+
+msgid "Registration number"
+msgstr "Número de Registro"
+
+msgid "Add Car"
+msgstr "Nuevo Automovil"
+
+msgid "Kilometers"
+msgstr "Kilometraje"
+
+msgid "KILOMETERS"
+msgstr "Kilometraje"
+
+msgid "Add Car"
+msgstr "Nuevo Automovil"
+
+msgid "Gray"
+msgstr "Gris"
+
+msgid "Red"
+msgstr "Rojo"
+
+msgid "White"
+msgstr "Blanco"

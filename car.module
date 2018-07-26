@@ -34,11 +34,11 @@ function car_theme() {
 }
 
 /**
- * Implements hook_page_attachments().
- */
+* Implements hook_page_attachments().
+*/
 function car_page_attachments(array &$attachments) {
-  $is_admin = \Drupal::service('router.admin_context')->isAdminRoute();
-  if ($is_admin){
-    $attachments['#attached']['library'][] = 'car/toolbar-icon';
-  }
+    $is_admin = \Drupal::service('router.admin_context')->isAdminRoute();
+    if ($is_admin){
+        $attachments['#attached']['library'][] = 'car/toolbar-icon';
+    }
 }

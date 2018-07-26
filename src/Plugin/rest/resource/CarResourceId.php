@@ -33,6 +33,7 @@ class CarResourceId extends ResourceBase {
         $result = $query->execute();
 
         $response = $result->fetchAssoc();
+        $response['color'] = t($response['color']);
         $response['image'] = [
             'url' => $GLOBALS['base_url'] . '/sites/default/files/IMAGE_FOLDER/' . $response['filename'],
             'alt' => $response['image__alt'],

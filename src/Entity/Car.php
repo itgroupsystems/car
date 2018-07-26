@@ -130,21 +130,23 @@ class Car extends ContentEntityBase implements CarInterface {
         ->setDisplayConfigurable('view', TRUE)
         ->setRequired(TRUE);
 
-        $fields['color'] = BaseFieldDefinition::create('string')
+        $fields['color'] = BaseFieldDefinition::create('list_string')
         ->setLabel(t('Color'))
         ->setDescription(t('The color of the Car.'))
         ->setSettings([
-            'max_length' => 15,
-            'text_processing' => 0,
+            'allowed_values' => [
+                'White' => t('White'),
+                'Grey' => t('Grey'),
+                'Red' => t('Red')
+            ],
         ])
-        ->setDefaultValue('')
         ->setDisplayOptions('view', [
             'label' => 'above',
             'type' => 'string',
             'weight' => -4,
         ])
         ->setDisplayOptions('form', [
-            'type' => 'string_textfield',
+            'type' => 'options_select',
             'weight' => -4,
         ])
         ->setDisplayConfigurable('form', TRUE)
