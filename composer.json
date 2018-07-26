@@ -7,8 +7,8 @@
     "homepage": "http://itgroup.systems/",
     "minimum-stability": "dev",
     "support": {
-        "issues": "https://github.com/itgroupsystems/irontec.car/issues",
-        "source": "https://github.com/itgroupsystems/irontec.car"
+        "issues": "https://github.com/itgroupsystems/car/issues",
+        "source": "https://github.com/itgroupsystems/car"
     },
     "authors": [
         {

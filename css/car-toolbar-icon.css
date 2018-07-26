@@ -3,5 +3,5 @@
 }
 .toolbar-icon-car-view:active:before,
 .toolbar-icon-car-view.is-active:before {
-  background-image: url(../images/car.png);
+  background-image: url(../images/car-active.png);
 }
