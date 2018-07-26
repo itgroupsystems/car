@@ -21,9 +21,6 @@ To install Cars, you must download the module from the Drupal module directory: 
 
 Full installation instructions, as well as a guide for configurations and settings, can be found on our Wiki: https://gitlab.com/itgroup/irontec.car/wikis/installation
 
-## How to use
-
-
 ## Help!
 
 Stuck? Check out our Drupal documentation: https://gitlab.com/itgroup/irontec.car/wikis/home
