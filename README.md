@@ -19,7 +19,8 @@ Additionally, this module allows you to export a REST or GraphQL Webservices and
 
 To install Cars, you must download the module from the Drupal module directory: https://github.com/itgroupsystems/car  We exclusively use the Gitlab.com infrastructure for module development, versioning, and issue tracking.
 
-Full installation instructions, as well as a guide for configurations and settings, can be found on our Wiki: https://gitlab.com/itgroup/irontec.car/wikis/installation
+Full installation instructions, as well as a guide for configurations and settings, can be found on our Wiki: 
+https://github.com/itgroupsystems/car/wiki/Installation
 
 ## Help!
 
